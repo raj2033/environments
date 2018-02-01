@@ -1,3 +1,3 @@
 node /agent/ {
-    include samplerepo
+    include role::lamp
 }
