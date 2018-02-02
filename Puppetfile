@@ -16,7 +16,6 @@ mod 'samplerepo',
   :git => 'https://github.com/raj2033/samplerepo.git',
   :ref => 'master'
 
-mod 'puppetlabs-apache', '2.3.0'
-mod 'puppetlabs-mysql', '5.2.0'
-mod 'puppet-php', '5.1.0'
-mod 'puppetlabs-concat'
+mod 'apache',
+  :git => 'https://github.com/raj2033/apache.git',
+  :ref => 'master'
